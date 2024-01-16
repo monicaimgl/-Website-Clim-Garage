@@ -1,0 +1,138 @@
+body{
+    background: url(foto/v707-aew-17-technologybackground.jpg)  no-repeat center center fixed;
+    background-size:cover;
+    color: #FFFFFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    margin-top: 0;
+}
+.row{
+    flex: 1;
+}
+header{
+    background-color: #FFFFFF;
+}
+#car-container {
+    position: relative;
+    width:100%;
+}
+
+#car {
+    width:130px;
+    height:auto;
+    position: absolute;
+    bottom:-30px;
+    left: 80%;
+    animation: moveLeft 5s linear infinite;
+}
+@keyframes moveLeft {
+    from {
+      left: 60%; /* Start from the right side of the container */
+    }
+    to {
+      left: 100px; /* Move to the left, hiding the car */
+    }
+  }
+  a[href^="tel:"] {
+    color: #0d2854;
+    text-decoration:none;
+    margin-left: 4px;
+}
+.navbar{
+    background-color: #0d2854 !important;
+}
+#galleryHeading{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .gallery {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 70%;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+  }
+  .galleryItem {
+    flex: 0 0 auto;
+    width: 100%;
+    display: none;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+  .galleryItem:hover{
+    border-color: #ffcc00;
+  }
+
+  .galleryItem img {
+    width: 100%;
+    height: auto;
+  }
+  .active {
+    display: block;
+  }
+
+  button {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #d0dce4;
+  }
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }  
+  footer .contact-icons {
+    margin-top: 10px;
+  }
+  footer .contact-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  .otherPhotos{
+    height: auto;
+    width: auto;
+    background-color: #ffcc00;
+    opacity: 80%;
+    border-color: #0d2854;
+    border-style: groove;
+    border-radius: 5px 30px 5px 30px;
+    margin: 20px;
+  }
+  .otherPhotos p{
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+  }
+  #tikTok{
+   font-size: 20px;
+  }
+
